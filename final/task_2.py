@@ -15,4 +15,4 @@ def to_arab(s):
 if __name__ == '__main__':
     roman_numeral = input("Введите римское число: ")
     result = to_arab(roman_numeral)
-    print(f"Римское число {roman_numeral}, по-арабски: {result}")
+    print(f"Римское число {roman_numeral} будет выглядеть по-арабски как {result}")
